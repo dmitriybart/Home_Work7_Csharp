@@ -47,4 +47,5 @@ for (int k = 0; k < doubleArray.GetLength(1); k++)
             sum = sum + doubleArray[l,k];
         }
     Console.Write($"{sum/doubleArray.GetLength(0)}\t");
+    sum = 0;
     }
